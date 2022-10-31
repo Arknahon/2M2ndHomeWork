@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1F1108290A65660056C2DA /* Investor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F1107290A65660056C2DA /* Investor.swift */; };
+		CE1F110A290A71120056C2DA /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F1109290A71120056C2DA /* Human.swift */; };
+		CE1F110C290A715A0056C2DA /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F110B290A715A0056C2DA /* Shop.swift */; };
+		CE1F110E290A71A90056C2DA /* Auto Parts Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F110D290A71A90056C2DA /* Auto Parts Shop.swift */; };
+		CE1F1110290A71EB0056C2DA /* Closes Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F110F290A71EB0056C2DA /* Closes Shop.swift */; };
 		CE65A12029010E3400F792A9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65A11F29010E3400F792A9 /* main.swift */; };
+		CE65A12D29013E7E00F792A9 /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65A12C29013E7E00F792A9 /* Worker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE1F1107290A65660056C2DA /* Investor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Investor.swift; sourceTree = "<group>"; };
+		CE1F1109290A71120056C2DA /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		CE1F110B290A715A0056C2DA /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		CE1F110D290A71A90056C2DA /* Auto Parts Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Auto Parts Shop.swift"; sourceTree = "<group>"; };
+		CE1F110F290A71EB0056C2DA /* Closes Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Closes Shop.swift"; sourceTree = "<group>"; };
 		CE65A11C29010E3400F792A9 /* 2M2ndHomeWork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2M2ndHomeWork; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE65A11F29010E3400F792A9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CE65A12C29013E7E00F792A9 /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,12 @@
 		CE65A11E29010E3400F792A9 /* 2M2ndHomeWork */ = {
 			isa = PBXGroup;
 			children = (
+				CE1F1109290A71120056C2DA /* Human.swift */,
+				CE65A12C29013E7E00F792A9 /* Worker.swift */,
+				CE1F1107290A65660056C2DA /* Investor.swift */,
+				CE1F110B290A715A0056C2DA /* Shop.swift */,
+				CE1F110D290A71A90056C2DA /* Auto Parts Shop.swift */,
+				CE1F110F290A71EB0056C2DA /* Closes Shop.swift */,
 				CE65A11F29010E3400F792A9 /* main.swift */,
 			);
 			path = 2M2ndHomeWork;
@@ -120,7 +138,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1F1110290A71EB0056C2DA /* Closes Shop.swift in Sources */,
 				CE65A12029010E3400F792A9 /* main.swift in Sources */,
+				CE1F1108290A65660056C2DA /* Investor.swift in Sources */,
+				CE65A12D29013E7E00F792A9 /* Worker.swift in Sources */,
+				CE1F110C290A715A0056C2DA /* Shop.swift in Sources */,
+				CE1F110A290A71120056C2DA /* Human.swift in Sources */,
+				CE1F110E290A71A90056C2DA /* Auto Parts Shop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
